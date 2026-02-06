@@ -26,11 +26,12 @@ Après l’importation :
 ### Adapter 1
 - Type : **NAT**
 - Rôle : Accès Internet (updates, outils)
+![Import OVA](https://github.com/user-attachments/assets/b625f16e-55dd-4aa0-a73d-f59e9b33e454)
 
 ### Adapter 2
 - Type : **Host-Only Adapter**
 - Rôle : Réseau isolé pour communiquer avec la cible Android
-
+![Import OVA](https://github.com/user-attachments/assets/b889f7ce-e4f2-47b3-bf5f-d7ed9e6c67a8)
 ---
 
 ## Définition
@@ -39,13 +40,22 @@ Après l’importation :
 
 ---
 
-## Remarque
-Si le Host-Only Adapter n’apparaît pas :
-1. VirtualBox → Tools
-2. Network Manager
-3. Host-Only Networks → Create
+## Étape 3 — Premier démarrage + connexion
 
----
+![Import OVA](https://github.com/user-attachments/assets/fdf0969e-3b32-4a25-b23b-79466708ef67)
 
-## Étape suivante
-Démarrage de la VM et vérification de la connectivité réseau.
+
+## Étape 4 — Vérifier le réseau (tests “santé”)
+
+![Import OVA](https://github.com/user-attachments/assets/c6b8e1ae-cb1a-4275-94e7-e9bda4dce97a)
+
+![Import OVA](https://github.com/user-attachments/assets/7fc77fc4-fa2b-44df-81d3-f21072a4bc9d)
+
+![Import OVA](https://github.com/user-attachments/assets/54605e38-ac52-465c-b073-23f3dae0603c)
+
+
+
+## Étape 5 — Créer le snapshot “CLEAN” (baseline)
+
+![Import OVA](https://github.com/user-attachments/assets/e01ab967-2dbd-40b3-a0b0-0a62d4cce9b1)
+
