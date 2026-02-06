@@ -59,3 +59,10 @@ Après l’importation :
 
 ![Import OVA](https://github.com/user-attachments/assets/e01ab967-2dbd-40b3-a0b0-0a62d4cce9b1)
 
+
+## Étape 6 — Préparer la cible Android (option 2)
+
+![Import OVA](https://github.com/user-attachments/assets/62ed7023-ddd2-49de-9dff-023141ff4597)
+
+
+
